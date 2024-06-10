@@ -2,7 +2,7 @@ spring:
   application:
     name : TodoApp
   datasource:
-    url: jdbc:mysql://lion-db.clisuuua2q29.ap-northeast-2.rds.amazonaws.com:3306/mydatabase
+    url: jdbc:mysql://lion-mydb.clisuuua2q29.ap-northeast-2.rds.amazonaws.com:3306/mydatabase
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
