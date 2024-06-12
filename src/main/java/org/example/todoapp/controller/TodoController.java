@@ -3,7 +3,6 @@ package org.example.todoapp.controller;
 import lombok.RequiredArgsConstructor;
 import org.example.todoapp.entity.Todo;
 import org.example.todoapp.service.TodoService;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
